@@ -1,7 +1,7 @@
-package netology.automation.java.square;
+package ru.netology.sqr;
 
-public class Square {
-    public long payment(long downBorder, long upBorder) {
+public class SQRService {
+    public long numberSquare(long downBorder, long upBorder) {
         int count = 0;
 
         for (int i = 10; i <= 99; i++) {
